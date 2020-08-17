@@ -25,7 +25,7 @@ or use conda:
 
 `conda install -c conda-forge notebook`
 
-For more choices, please follow the instructions [here](https://jupyter.org/install) 
+For more choices, please follow the instructions [here](https://jupyter.org/install).
 
 The python packages required to successfully execute the training are:
 
