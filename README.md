@@ -13,7 +13,7 @@ To activate the provided conda environment, use
 
 More information regarding managing environments can be found [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
-_If you would rather build everything from scratch, we would recommend not to skip the next part._
+_If you would rather build everything from scratch, we would recommend not to skip the next part, otherwise please head over to_ Usage.
 
 To install anaconda, please follow the instructions on the [website](https://docs.anaconda.com/anaconda/install/).
 
