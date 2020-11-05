@@ -37,6 +37,8 @@ The python packages required to successfully execute the training are:
 
 ## Usage
 
+### iPython environment
+
 To open the notebook, navigate to the notebook's folder and execute
 
 `jupyter notebook`
@@ -60,3 +62,22 @@ The whole notebook is divided into four parts for the four datasets and each par
 The code to train the classifier using _feature set 1_ with _Fickett score_ is already provided. 
 
 Only the directories _fs\[1-3\]_ need to be changed to proceed with the training using the features containing structural information and conservation scores. Inclusion of the _Fickett score_ can be regulated choosing the appropriate folder for every feature set.
+
+### Command line
+
+Two python scripts are included in the _machine learning steps_ folder, namely `supervised.py` and `unsupervised.py` to enable command line usage.
+
+Each script can be run with the following switches:
+
+`-t, -training_set` choose the training set for the classifier: \[1,2,3,4\]. The default value is 1.
+`-fs, -feature_set` choose the feature set: \[1,2,3\]. The default value is 1.
+`-fi, -fickett_score` should you choose to include fickett score, enter 1, \else 0. Disabled by default.
+
+Help with the switches can be accessed by:
+`supervised.py -h`
+OR
+`unsupervised.py -h`
+
+If no parameters are specified, both the files will run on default parameters.
+
+`unsupervised.py` will save the plots generated for PCA and k-means clustering in the working directory.
