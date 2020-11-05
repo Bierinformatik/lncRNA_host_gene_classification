@@ -3,7 +3,8 @@
 This readme provides instructions towards the usage of the included jupyter notebook and command line scripts to reproduce the findings 
 of our study to identify lncRNA subtypes.
 
-The folder _feature extraction scripts_ contains several python scripts use to preprocess the data used, i.e. for data extraction and feature engineering. They are provided to have an overview of the elaborate steps involved in data preprocessing.\\
+The folder _feature extraction scripts_ contains several python scripts use to preprocess the data used, i.e. for data extraction and feature engineering. They are provided to have an overview of the elaborate steps involved in data preprocessing.
+
 The folder _machine learning steps_ contains python scripts that can be used to reproduce the training steps and generate the performance metrics in a terminal, should you choose not to use the iPython environment. Instructions are in the Usage section.
 
 Prerequisites are python >=3.6, jupyter, and anaconda.
@@ -70,7 +71,8 @@ Only the directories _fs\[1-3\]_ need to be changed to proceed with the training
 
 Two python scripts are included in the _machine learning steps_ folder, namely `supervised.py` and `unsupervised.py` to enable command line usage.
 
-`supervised.py` trains a random forest classifier on the training sets as described above.\\
+`supervised.py` trains a random forest classifier on the training sets as described above.
+
 `unsupervised.py` performs PCA and k-means clustering on the training sets.
 
 Each script can be run with the following switches:
