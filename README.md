@@ -70,12 +70,17 @@ Two python scripts are included in the _machine learning steps_ folder, namely `
 Each script can be run with the following switches:
 
 `-t, -training_set` choose the training set for the classifier: \[1,2,3,4\]. The default value is 1.
+
 `-fs, -feature_set` choose the feature set: \[1,2,3\]. The default value is 1.
-`-fi, -fickett_score` should you choose to include fickett score, enter 1, \else 0. Disabled by default.
+
+`-fi, -fickett_score` should you choose to include fickett score, enter 1, else 0. Disabled by default.
 
 Help with the switches can be accessed by:
+
 `supervised.py -h`
+
 OR
+
 `unsupervised.py -h`
 
 If no parameters are specified, both the files will run on default parameters.
