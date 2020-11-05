@@ -3,11 +3,11 @@
 This readme provides instructions towards the usage of the included jupyter notebook and command line scripts to reproduce the findings 
 of our study to identify lncRNA subtypes.
 
-The folder _feature extraction scripts_ contains several python scripts use to preprocess the data used, i.e. for data extraction and feature engineering. They are provided to have an overview of the elaborate steps involved in data preprocessing.
+The folder *feature extraction scripts* contains Python scripts used to process the datasets, i.e. for data extraction and feature engineering. They are provided as an overview of the elaborate steps involved in data preprocessing.
 
-The folder _machine learning steps_ contains python scripts that can be used to reproduce the training steps and generate the performance metrics in a terminal, should you choose not to use the iPython environment. Instructions are in the Usage section.
+The folder *machine learning steps* contains Python scripts that can be used to reproduce the training steps and generate the performance metrics in a terminal, should you choose not to use the iPython environment. See [Usage](##Usage) for more information.
 
-Prerequisites are python >=3.6, jupyter, and anaconda.
+*Prerequisites* are python >=3.6, jupyter, and anaconda.
 
 To make life easier, all the necessary python packages are compiled into a conda environment and provided here.
 
