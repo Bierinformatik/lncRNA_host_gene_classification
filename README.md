@@ -5,7 +5,7 @@ of our study to identify lncRNA subtypes.
 
 The folder *feature extraction scripts* contains Python scripts used to process the datasets, i.e. for data extraction and feature engineering. They are provided as an overview of the elaborate steps involved in data preprocessing.
 
-The folder *machine learning steps* contains Python scripts that can be used to reproduce the training steps and generate the performance metrics in a terminal, should you choose not to use the iPython environment. See [Usage](##Usage) for more information.
+The folder *machine learning steps* contains Python scripts that can be used to reproduce the training steps and generate the performance metrics in a terminal, should you choose not to use the iPython environment. See [Usage](#Usage) for more information.
 
 *Prerequisites* are python >=3.6, jupyter, and anaconda.
 
